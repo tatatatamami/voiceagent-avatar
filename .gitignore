@@ -1,0 +1,34 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Environment configs
+.env
+*.env.*
+backend/.env
+backend/.env.*
+
+# Optional: Vite build output
+frontend/dist/
+backend/static/
+
+# macOS and Windows metadata
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
